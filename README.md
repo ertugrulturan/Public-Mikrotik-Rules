@@ -1,6 +1,6 @@
 # Public Mikrotik Rules
 
-`
+```shell
 ###########################################################################################################################
 #### SynFlood, ICMP Flood, Port Scan, Email Spam Block                                                                 ####
 ###########################################################################################################################
@@ -161,4 +161,4 @@ add chain=drop action=log disabled=no comment="Temporary logging if we need to s
 add chain=drop action=drop disabled=yes comment="DROP EVERYTHING | check the log twice before enabling this"
 
 
-`
+```
